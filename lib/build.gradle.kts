@@ -12,6 +12,8 @@ repositories {
 }
 
 dependencies {
+	// YAML 로딩
+	implementation("org.yaml:snakeyaml:2.2")
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
@@ -21,8 +23,9 @@ dependencies {
     // Java AST 파싱
     implementation("com.github.javaparser:javaparser-symbol-solver-core:3.26.2")
 
-    // YAML 로딩
-    implementation("org.yaml:snakeyaml:2.2")
+    
+    
+
 }
 
 java {
