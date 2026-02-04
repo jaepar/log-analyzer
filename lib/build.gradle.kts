@@ -15,11 +15,12 @@ dependencies {
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
-    // api(libs.commons.math3)
-    // implementation(libs.guava)
-
     // Java AST 파싱
     implementation("com.github.javaparser:javaparser-symbol-solver-core:3.26.2")
+
+    implementation(libs.guava)
+    
+    implementation ("com.github.javaparser:javaparser-symbol-solver-core:3.28.0")
 
     // YAML 로딩
     implementation("org.yaml:snakeyaml:2.2")
