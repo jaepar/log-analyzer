@@ -35,7 +35,7 @@ log_analyzer
 │   └── service/            # 정책 로더 및 설정 검증 (LoggingPolicy, PolicyLoader)
 ├── report/                 # 분석 결과 요약 및 파일 출력
 └── Main.java               # 프로그램 실행 엔트리 포인트
-
+```
 
 ##설정 및 사용 방법
 ###1. 정책 파일 설정 (logging-policy.yml)
