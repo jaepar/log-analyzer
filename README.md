@@ -37,8 +37,8 @@ log_analyzer
 └── Main.java               # 프로그램 실행 엔트리 포인트
 ```
 
-##설정 및 사용 방법
-###1. 정책 파일 설정 (logging-policy.yml)
+## 설정 및 사용 방법
+### 1. 정책 파일 설정 (logging-policy.yml)
 프로젝트 루트 폴더에 위치하며, 보안 검사를 수행할 필드명과 로그 메서드를 정의합니다.
 
 YAML
@@ -57,7 +57,7 @@ logMethods:
   - logger.warn
   - Logger.severe
 ```
-###2. 분석 실행
+### 2. 분석 실행
 터미널에서 아래 명령어를 실행하여 정적 분석을 수행합니다.
 
 Bash
@@ -65,7 +65,7 @@ Bash
 ./gradlew staticLogAnalyze
 ```
 
-###3. 결과 보고서 확인
+### 3. 결과 보고서 확인
 분석이 완료되면 build/logging-report/report.txt 경로에서 상세 위반 내역을 확인할 수 있습니다.
 
 ## 주요 기여 내용 (Individual Contribution)
